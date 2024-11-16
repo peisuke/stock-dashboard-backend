@@ -1,0 +1,89 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment variables
+.env
+.env.*
+
+# macOS specific
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+.env/
+.venv/
+
+# Poetry specific
+poetry.lock
+
+# Log files
+*.log
+
+# Test artifacts
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# FastAPI specific
+__pycache__/
+*.sqlite3
+
+# Docker
+*.pid
+dist/
+*.dockerfile
+*.tar
+
+# VS Code settings
+.vscode/
+
+# Pyenv
+tags
+*.pyenv
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Coverage
+*.cover
+*.coverage
+.coverage.*
+.cache
+.nyc_output/
+
+# Database files
+*.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# Flask-specific
+instance/
+
+# Celery beat schedule file
+celerybeat-schedule
